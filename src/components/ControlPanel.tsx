@@ -86,7 +86,7 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
                 Renewing...
               </span>
             ) : (
-              '🔄 RENEW SECURE KEYS'
+              'RENEW SECURE KEYS'
             )}
           </button>
         )}
@@ -95,7 +95,7 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
           disabled={isSimulating}
           className="w-full bg-gradient-to-r from-gray-500 to-gray-600 hover:from-gray-600 hover:to-gray-700 disabled:from-gray-300 disabled:to-gray-400 disabled:cursor-not-allowed text-white font-bold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg transform hover:scale-105 disabled:transform-none"
         >
-          🔄 RESET MISSION
+          RESET MISSION
         </button>
       </div>
     </div>

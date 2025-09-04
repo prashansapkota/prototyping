@@ -19,17 +19,17 @@ const KeyStatusPanel: React.FC<KeyStatusPanelProps> = ({ state }) => {
     if (state.connectionPhase === 'establishing') {
       return (
         <div className="text-center font-bold text-lg text-blue-400 mb-2">
-          🔄 ESTABLISHING SECURE LINK
+          ESTABLISHING SECURE LINK
         </div>
       );
     }
     
     if (state.isConnected) {
       const phaseText = {
-        monitoring: '👁️ MONITORING CHANNEL',
-        renewing: '🔄 RENEWING KEYS',
-        idle: '✅ SECURE COMMS ACTIVE'
-      }[state.connectionPhase] || '✅ SECURE COMMS ACTIVE';
+        monitoring: 'MONITORING CHANNEL',
+        renewing: 'RENEWING KEYS',
+        idle: 'SECURE COMMS ACTIVE'
+      }[state.connectionPhase] || 'SECURE COMMS ACTIVE';
       
       return (
         <div className="text-center mb-2">
@@ -38,7 +38,7 @@ const KeyStatusPanel: React.FC<KeyStatusPanelProps> = ({ state }) => {
           </div>
           {state.keyRenewalCount > 0 && (
             <div className="text-sm text-yellow-400 mt-1">
-              🔄 Key Renewals: {state.keyRenewalCount}
+              Key Renewals: {state.keyRenewalCount}
             </div>
           )}
         </div>

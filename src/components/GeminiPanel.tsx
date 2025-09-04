@@ -34,7 +34,7 @@ const GeminiPanel: React.FC<GeminiPanelProps> = ({ lastEvent, disabled }) => {
     <div className="ui-panel flex-1">
       <h3 className="text-lg font-semibold text-indigo-600 mb-2 flex items-center gap-2">
         <Sparkles size={16} className="text-purple-500" />
-        📡 INTEL ANALYSIS
+        INTEL ANALYSIS
       </h3>
       <div className="text-xs text-gray-700 h-24 overflow-y-auto bg-gradient-to-br from-purple-50 to-indigo-50 border border-purple-200 p-2 rounded-md mb-2">
         {output}
@@ -52,7 +52,7 @@ const GeminiPanel: React.FC<GeminiPanelProps> = ({ lastEvent, disabled }) => {
         ) : (
           <span className="flex items-center justify-center gap-2">
             <Sparkles size={14} />
-            🔍 ANALYZE OPERATION
+            ANALYZE OPERATION
           </span>
         )}
       </button>

@@ -16,7 +16,7 @@ const LogPanel: React.FC<LogPanelProps> = ({ logs }) => {
   return (
     <div className="ui-panel flex-1">
       <h3 className="text-lg font-semibold text-green-600 mb-2 flex items-center gap-2">
-        📊 TACTICAL LOG
+        TACTICAL LOG
       </h3>
       <div
         ref={logRef}
