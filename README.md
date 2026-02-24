@@ -1,6 +1,12 @@
+# QuantumShield: Quantum-Secured Dynamic Tactical System for AVs
+<img width="2006" height="1139" alt="image" src="https://github.com/user-attachments/assets/019f8b2b-c926-4d9f-9491-8f03ccbeedfb" />
+
+
 # Autonomous Vehicle QKD Simulation
 
 A real-time 3D simulation of Quantum Key Distribution (QKD) between autonomous vehicles, built with React, TypeScript, and Three.js.
+
+
 
 ## Features
 
