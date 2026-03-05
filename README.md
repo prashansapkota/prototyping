@@ -111,7 +111,7 @@ When Eve intercepts photons:
 
 - **React 18** - UI framework
 - **TypeScript** - Type safety
-- **Three.js** - 3D graphics
+- **C\#** - 3D graphics
 - **Tailwind CSS** - Styling
 - **Vite** - Build tool
 - **Lucide React** - Icons
