@@ -4,7 +4,7 @@
 
 # Autonomous Vehicle QKD Simulation
 
-A real-time 3D simulation of Quantum Key Distribution (QKD) between autonomous vehicles, built with React, TypeScript, and Three.js.
+A real-time 3D simulation of Quantum Key Distribution (QKD) between autonomous vehicles, built with React, TypeScript, and C\#.
 
 
 
